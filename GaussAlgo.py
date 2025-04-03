@@ -22,5 +22,9 @@ def Gauss(Matrix):
 
     return sol
 
-matrix = [[2, 1, -1, 1, 3, 7], [1, 0, 2, -1, 1, 2], [0, -2, -1, 1, -1, -5], [3, 1, -4, 0, 5, 6], [1, -1, -1, -1, 1, 3]]
-print(Gauss(matrix))
+matrix = [[2, 1, -1, 1, 3, 7], 
+          [1, 0, 2, -1, 1, 2], 
+          [0, -2, -1, 1, -1, -5], 
+          [3, 1, -4, 0, 5, 6], 
+          [1, -1, -1, -1, 1, 3]]
+print(f"Solution to Concatenated Matrix: {Gauss(matrix)}")
